@@ -11,7 +11,7 @@ class UserService {
 
    //! Servicio que permite crear una data de 10 users con datos fake
    generate() {
-      const limit = 20;
+      const limit = 50;
       for (let index = 0; index < limit; index++) {
          this.users.push({
             id: faker.datatype.uuid(),
