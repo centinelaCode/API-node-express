@@ -10,7 +10,7 @@ class CategoryService {
 
    //! Servicio que permite crear una data de 10 categories con datos fake
    generate() {
-      const limit = 20;
+      const limit = 50;
       for (let index = 0; index < limit; index++) {
          this.categories.push({
             id: faker.datatype.uuid(),
