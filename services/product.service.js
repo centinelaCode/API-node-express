@@ -11,7 +11,7 @@ class ProductService {
 
    //! Servicio que permite crear una data de 10 productos con datos fake
    generate() {
-      const limit = 5;
+      const limit = 50;
       for (let index = 0; index < limit; index++) {
          this.products.push({
             id: faker.datatype.uuid(),
